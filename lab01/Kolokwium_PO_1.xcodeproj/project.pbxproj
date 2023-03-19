@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F00027AB29B74B22008292E9 /* Bryla.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F00027A929B74B22008292E9 /* Bryla.cpp */; };
+		F00027B029B74BC3008292E9 /* Prostopadl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F00027AE29B74BC3008292E9 /* Prostopadl.cpp */; };
+		F076BF2729B2585800788A71 /* FiguraPlaska.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F076BF2629B2585800788A71 /* FiguraPlaska.cpp */; };
+		F076BF3229B25A7800788A71 /* Prostokat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F076BF3029B25A7800788A71 /* Prostokat.cpp */; };
+		F076BF3529B5F95200788A71 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F076BF3329B5F95200788A71 /* main.cpp */; };
+		F076BF3829B622AF00788A71 /* Trojkat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F076BF3629B622AF00788A71 /* Trojkat.cpp */; };
+		F076BF3B29B622BE00788A71 /* Kolo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F076BF3929B622BE00788A71 /* Kolo.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F076BF2129B2585800788A71 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F00027A929B74B22008292E9 /* Bryla.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Bryla.cpp; sourceTree = "<group>"; };
+		F00027AC29B74B5C008292E9 /* Bryla.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bryla.h; sourceTree = "<group>"; };
+		F00027AD29B74BB1008292E9 /* Prostopadl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prostopadl.h; sourceTree = "<group>"; };
+		F00027AE29B74BC3008292E9 /* Prostopadl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Prostopadl.cpp; sourceTree = "<group>"; };
+		F076BF2329B2585800788A71 /* Kolokwium_PO_1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Kolokwium_PO_1; sourceTree = BUILT_PRODUCTS_DIR; };
+		F076BF2629B2585800788A71 /* FiguraPlaska.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FiguraPlaska.cpp; sourceTree = "<group>"; };
+		F076BF2D29B2589400788A71 /* FiguraPlaska.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FiguraPlaska.h; sourceTree = "<group>"; };
+		F076BF2F29B25A6D00788A71 /* Trojkat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Trojkat.h; sourceTree = "<group>"; };
+		F076BF3029B25A7800788A71 /* Prostokat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Prostokat.cpp; sourceTree = "<group>"; };
+		F076BF3129B25A7800788A71 /* Prostokat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prostokat.h; sourceTree = "<group>"; };
+		F076BF3329B5F95200788A71 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F076BF3629B622AF00788A71 /* Trojkat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Trojkat.cpp; sourceTree = "<group>"; };
+		F076BF3929B622BE00788A71 /* Kolo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Kolo.cpp; sourceTree = "<group>"; };
+		F076BF3C29B6236D00788A71 /* Kolo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kolo.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F076BF2029B2585800788A71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F076BF1A29B2585800788A71 = {
+			isa = PBXGroup;
+			children = (
+				F076BF2529B2585800788A71 /* Kolokwium_PO_1 */,
+				F076BF2429B2585800788A71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F076BF2429B2585800788A71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F076BF2329B2585800788A71 /* Kolokwium_PO_1 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F076BF2529B2585800788A71 /* Kolokwium_PO_1 */ = {
+			isa = PBXGroup;
+			children = (
+				F076BF3329B5F95200788A71 /* main.cpp */,
+				F076BF2629B2585800788A71 /* FiguraPlaska.cpp */,
+				F076BF2D29B2589400788A71 /* FiguraPlaska.h */,
+				F076BF3629B622AF00788A71 /* Trojkat.cpp */,
+				F076BF2F29B25A6D00788A71 /* Trojkat.h */,
+				F076BF3029B25A7800788A71 /* Prostokat.cpp */,
+				F076BF3129B25A7800788A71 /* Prostokat.h */,
+				F076BF3929B622BE00788A71 /* Kolo.cpp */,
+				F076BF3C29B6236D00788A71 /* Kolo.h */,
+				F00027A929B74B22008292E9 /* Bryla.cpp */,
+				F00027AC29B74B5C008292E9 /* Bryla.h */,
+				F00027AD29B74BB1008292E9 /* Prostopadl.h */,
+				F00027AE29B74BC3008292E9 /* Prostopadl.cpp */,
+			);
+			path = Kolokwium_PO_1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F076BF2229B2585800788A71 /* Kolokwium_PO_1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F076BF2A29B2585800788A71 /* Build configuration list for PBXNativeTarget "Kolokwium_PO_1" */;
+			buildPhases = (
+				F076BF1F29B2585800788A71 /* Sources */,
+				F076BF2029B2585800788A71 /* Frameworks */,
+				F076BF2129B2585800788A71 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kolokwium_PO_1;
+			productName = Kolokwium_PO_1;
+			productReference = F076BF2329B2585800788A71 /* Kolokwium_PO_1 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F076BF1B29B2585800788A71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F076BF2229B2585800788A71 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = F076BF1E29B2585800788A71 /* Build configuration list for PBXProject "Kolokwium_PO_1" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F076BF1A29B2585800788A71;
+			productRefGroup = F076BF2429B2585800788A71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F076BF2229B2585800788A71 /* Kolokwium_PO_1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F076BF1F29B2585800788A71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F00027AB29B74B22008292E9 /* Bryla.cpp in Sources */,
+				F076BF3829B622AF00788A71 /* Trojkat.cpp in Sources */,
+				F00027B029B74BC3008292E9 /* Prostopadl.cpp in Sources */,
+				F076BF3229B25A7800788A71 /* Prostokat.cpp in Sources */,
+				F076BF2729B2585800788A71 /* FiguraPlaska.cpp in Sources */,
+				F076BF3529B5F95200788A71 /* main.cpp in Sources */,
+				F076BF3B29B622BE00788A71 /* Kolo.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F076BF2829B2585800788A71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F076BF2929B2585800788A71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F076BF2B29B2585800788A71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F076BF2C29B2585800788A71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F076BF1E29B2585800788A71 /* Build configuration list for PBXProject "Kolokwium_PO_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F076BF2829B2585800788A71 /* Debug */,
+				F076BF2929B2585800788A71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F076BF2A29B2585800788A71 /* Build configuration list for PBXNativeTarget "Kolokwium_PO_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F076BF2B29B2585800788A71 /* Debug */,
+				F076BF2C29B2585800788A71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F076BF1B29B2585800788A71 /* Project object */;
+}
